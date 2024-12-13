@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Unbounded";
+    src: url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+}
+
+*{
+    font-weight: 100;
+    font-family: "Unbounded";
+}
+
+
+
+body{
+    background: #f6f6f6;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+input{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 40px;
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: 2px solid rgb(180, 180, 180);
+}
+
+
+label{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.choose{
+    display: flex;
+    justify-content: space-around;
+}
+
+.var{
+    background: #D89BFC;
+    border-radius: 20px;
+    width: 45%;
+    color: white;
+    height: 60px;
+    font-size: 40px;
+}
+
+
+form{
+    margin-inline: auto;
+    width: 1000px;
+    height: 60vh;
+    border: solid 2px rgba(217, 217, 217, 1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.submit{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: #BE75E8;
+    color: white;
+    width: 95%;
+    margin-inline: auto;
+    border-radius: 80px;
+    height: 80px;
+
+}
+
+
+
+
+@media only screen and (max-width:1000px) {
+    form{
+        width: 600px;
+    }
+    .var{
+        font-size: 30px;
+    }
+    label{
+        font-size: 25px;
+    }
+    .submit{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    form{
+        width: 400px;
+    }
+    .var{
+        font-size: 25px;
+    }
+    label{
+        font-size: 20px;
+    }
+}
