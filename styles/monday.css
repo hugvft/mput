@@ -32,6 +32,7 @@ body{
 
 .menu{
     margin-top: -55px;
+    width: 40px;
 }
 
 .logo{
@@ -86,15 +87,35 @@ h1{
 
 
 li{
-    display: flex;
-    background: #F0C3FF;
-    border: solid #AF91B9 1px;
-    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 80%;
+    border: solid 1px #D9D9D9;
+    box-shadow: 5px 5px 10px 0 rgb(0 0 0/ 0.2);
+    height: 80px;
+
 }
 
 svg{
     background: #CE8CE3;
-    border-radius: 6px;
+    border-radius: 4px;
+    height: 25px;
+    width: 25px;
+    margin-right: 20px
+}
+
+
+.lesson2{
+    margin-top: 12px;
+    display: flex;
+    padding: 15px;
+    width: 90%;
+    background: #F0C3FF;
+    border: solid #AF91B9 1px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .number{
@@ -103,4 +124,12 @@ svg{
 
 .border{
     display: none;
+
+}
+
+#iles:hover{
+    #les1{
+        border: 0px;
+        background: none;
+    }
 }
