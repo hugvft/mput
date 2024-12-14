@@ -7,15 +7,19 @@
     <title>Добро Пожаловать в Artic Schedule</title>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.ico" type="image/x-icon">
 </head>
 <body>
 
     <h1>Вход в систему</h1>
 
-    <form action="/login.ejs" method="post">
-        <label>Имя</label>
+    <form action="" method="post">
+        <label>Логин</label>
         <input type="text" placeholder="Введите..." name="username" required> <br>
-        <label>Фамилия</label>
+        <label>Пароль</label>
         <input type="text" placeholder="Введите..." name="password" required> <br>
         <label>Вы...</label>
         <div class="choose">
@@ -26,6 +30,7 @@
         <button class="submit" type="submit">Войти</button>
     </form>
 
+    <img src="img/IMG_5121.PNG" alt="logo" class="logo">
 
 </body>
 </html>
